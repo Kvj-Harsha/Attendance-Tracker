@@ -10,7 +10,7 @@ import * as MailComposer from 'expo-mail-composer'
 export default function HomeInfo() {
 	function handleEmail() {
 		MailComposer.composeAsync({
-			recipients: ['aadhavanlenin@gmail.com'],
+			recipients: ['harshakondaveeti05@gmail.com'],
 			subject: '',
 			body: '',
 		})
@@ -270,7 +270,7 @@ export default function HomeInfo() {
 					>
 						If you have found a bug or have any queries, please send a mail to:&nbsp;
 						<Text style={{ color: 'blue', textDecorationLine: 'underline' }} onPress={handleEmail}>
-							aadhavanlenin@gmail.com
+							harshakondaveeti05@gmail.com
 						</Text>
 					</Text>
 					<Text
@@ -282,7 +282,7 @@ export default function HomeInfo() {
 							alignSelf: 'center',
 						}}
 					>
-						Made with ❤️ by students from CSE, NITC
+						Made with ❤️ by Kvj Harsha!
 					</Text>
 				</View>
 			</ScrollView>

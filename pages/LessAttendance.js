@@ -67,9 +67,9 @@ export default function LessAttendance({ route, navigation }) {
 				 *
 				 * 3 different cases:
 				 *
-				 *   -> {FName} .. {LName} = {FName}_Rollno@nitc.ac.in
-				 *   -> {I} {FName} .. {LName} = {FName}_Rollno@nitc.ac.in
-				 *   -> {I} {I} {FName} .. {LName} = {I}{I}{FName}_Rollno@nitc.ac.in
+				 *   -> {FName} .. {LName} = {FName}_Rollno@iiitr.ac.in
+				 *   -> {I} {FName} .. {LName} = {FName}_Rollno@iiitr.ac.in
+				 *   -> {I} {I} {FName} .. {LName} = {I}{I}{FName}_Rollno@iiitr.ac.in
 				 *
 				 */
 
@@ -83,20 +83,20 @@ export default function LessAttendance({ route, navigation }) {
 							names[2].toLowerCase() +
 							'_' +
 							students[i].rollNumber.toLowerCase() +
-							'@nitc.ac.in'
+							'@iiitr.ac.in'
 					} else {
 						to =
 							names[1].toLowerCase().trim() +
 							'_' +
 							students[i].rollNumber.toLowerCase().trim() +
-							'@nitc.ac.in'
+							'@iiitr.ac.in'
 					}
 				} else {
 					to =
 						names[0].toLowerCase().trim() +
 						'_' +
 						students[i].rollNumber.toLowerCase().trim() +
-						'@nitc.ac.in'
+						'@iiitr.ac.in'
 				}
 			}
 		}
