@@ -215,6 +215,7 @@ export default function HomeInfo() {
 							fontSize: 14,
 							lineHeight: 20,
 							marginTop: 6,
+							
 						}}
 					>
 						Import student roll list as a CSV file directly into the app.

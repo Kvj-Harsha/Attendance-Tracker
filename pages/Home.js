@@ -130,19 +130,20 @@ export default function Home() {
 					}}
 				>
 					<View>
-						<Text style={{ fontSize: 32, lineHeight: 32, fontFamily: FONTS?.bold }}>
+						<Text style={{ fontSize: 32, lineHeight: 32, fontFamily: FONTS?.bold, color: 'white'}}>
 							{date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
 						</Text>
-						<Text style={{ paddingTop: 6 }}>
-							Good day
-							{name != null ? (
-								<Text style={{ fontFamily: FONTS?.bold, fontSize: 16, lineHeight: 19 }}>
-									,&nbsp;{name}&nbsp;👋
-								</Text>
-							) : (
-								<></>
-							)}
-						</Text>
+						<Text style={{ paddingTop: 6, color: 'white' }}>
+    Good day
+    {name != null ? (
+        <Text style={{ fontFamily: FONTS?.bold, fontSize: 16, lineHeight: 19, color: 'white' }}>
+            ,&nbsp;{name}&nbsp;👋
+        </Text>
+    ) : (
+        <></>
+    )}
+</Text>
+
 					</View>
 					<View style={{ flexDirection: 'row', alignItems: 'center' }}>
 						<TouchableOpacity

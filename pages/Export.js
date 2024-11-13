@@ -192,7 +192,7 @@ export default function Mark() {
 	)
 
 	return (
-		<View style={{ flex: 1 }}>
+		<View style={{ flex: 1, backgroundColor: '#111827' }}>
 			<StatusBar style='dark' />
 			<View
 				style={{
@@ -255,6 +255,7 @@ export default function Mark() {
 							color: COLORS?.subHeading,
 							fontSize: 16,
 							lineHeight: 19,
+							color: 'white',
 						}}
 					>
 						Export attendance
@@ -271,6 +272,7 @@ export default function Mark() {
 						borderWidth: 1,
 						borderColor: COLORS.borderGrey,
 						borderRadius: 15,
+						color: 'white',
 					}}
 				>
 					<Svg
@@ -282,11 +284,11 @@ export default function Mark() {
 					>
 						<Path
 							d='M21 11.25H15.9375V19.0625C15.9375 19.575 15.5125 20 15 20C14.4875 20 14.0625 19.575 14.0625 19.0625V11.25H9C5 11.25 2.5 13.75 2.5 17.75V20.9875C2.5 25 5 27.5 9 27.5H20.9875C24.9875 27.5 27.4875 25 27.4875 21V17.75C27.5 13.75 25 11.25 21 11.25Z'
-							fill='#294F82'
+							fill='white'
 						/>
 						<Path
 							d='M15.9375 5.70128L18.525 8.28878C18.7125 8.47628 18.95 8.56378 19.1875 8.56378C19.425 8.56378 19.6625 8.47628 19.85 8.28878C20.2125 7.92628 20.2125 7.32628 19.85 6.96378L15.6625 2.77628C15.4861 2.60193 15.248 2.50415 15 2.50415C14.752 2.50415 14.5139 2.60193 14.3375 2.77628L10.15 6.96378C9.78749 7.32628 9.78749 7.92628 10.15 8.28878C10.5125 8.65128 11.1125 8.65128 11.475 8.28878L14.0625 5.70128V11.2513H15.9375V5.70128Z'
-							fill='#294F82'
+							fill='white'
 						/>
 					</Svg>
 				</View>
@@ -298,6 +300,7 @@ export default function Mark() {
 							lineHeight: 19,
 							marginBottom: 6,
 							marginTop: 70,
+							color: 'white',
 						}}
 					>
 						Course:
@@ -350,6 +353,7 @@ export default function Mark() {
 							lineHeight: 19,
 							marginBottom: 6,
 							marginTop: 15,
+							color: 'white',
 						}}
 					>
 						Batch:

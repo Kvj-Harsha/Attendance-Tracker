@@ -151,7 +151,7 @@ export default function Mark() {
 	)
 
 	return (
-		<KeyboardAvoidingView style={{ flex: 1 }} behavior={Platform.OS === 'ios' ? 'padding' : null}>
+		<KeyboardAvoidingView style={{ flex: 1, backgroundColor: '#111827', color: 'white' }} behavior={Platform.OS === 'ios' ? 'padding' : null}>
 			<StatusBar style='dark' />
 
 			<View
@@ -215,6 +215,7 @@ export default function Mark() {
 							color: COLORS?.subHeading,
 							fontSize: 16,
 							lineHeight: 19,
+							color: 'white',
 						}}
 					>
 						Import student roll list
@@ -243,7 +244,7 @@ export default function Mark() {
 					>
 						<Path
 							d='M21 11.25H15.9375V16.8L18.525 14.2125C18.7125 14.025 18.95 13.9375 19.1875 13.9375C19.425 13.9375 19.6625 14.025 19.85 14.2125C20.2125 14.575 20.2125 15.175 19.85 15.5375L15.6625 19.725C15.3 20.0875 14.7 20.0875 14.3375 19.725L10.15 15.5375C9.97565 15.3611 9.87787 15.123 9.87787 14.875C9.87787 14.627 9.97565 14.3889 10.15 14.2125C10.5125 13.85 11.1125 13.85 11.475 14.2125L14.0625 16.8V11.25H9C5 11.25 2.5 13.75 2.5 17.75V20.9875C2.5 25 5 27.5 9 27.5H20.9875C24.9875 27.5 27.4875 25 27.4875 21V17.75C27.5 13.75 25 11.25 21 11.25ZM15.9375 3.4375C15.9375 2.925 15.5125 2.5 15 2.5C14.4875 2.5 14.0625 2.925 14.0625 3.4375V11.25H15.9375V3.4375Z'
-							fill='#294F82'
+							fill='white'
 						/>
 					</Svg>
 				</View>
@@ -255,6 +256,7 @@ export default function Mark() {
 							lineHeight: 19,
 							marginBottom: 6,
 							marginTop: 60,
+							color: 'white',
 						}}
 					>
 						Course ID:
@@ -278,6 +280,8 @@ export default function Mark() {
 							lineHeight: 19,
 							marginBottom: 6,
 							marginTop: 15,
+
+							color: 'white',
 						}}
 					>
 						Course name:
@@ -303,6 +307,7 @@ export default function Mark() {
 							lineHeight: 19,
 							marginBottom: 6,
 							marginTop: 15,
+							color: 'white',
 						}}
 					>
 						Batch:
@@ -324,6 +329,7 @@ export default function Mark() {
 							lineHeight: 19,
 							marginBottom: 6,
 							marginTop: 15,
+							color: 'white',
 						}}
 					>
 						Add file:
@@ -435,25 +441,30 @@ const styles = StyleSheet.create({
 		width: 270,
 		paddingLeft: 10,
 		paddingRight: 10,
+		color: 'white',
 		borderRadius: 7,
 	},
 	placeholderStyle: {
 		fontFamily: FONTS?.light,
 		fontSize: 14,
 		color: COLORS?.placeholder,
+		color: 'white',
 	},
 	selectedTextStyle: {
 		fontFamily: FONTS?.regular,
 		fontSize: 14,
-		color: COLORS?.black,
+		// color: COLORS?.white,
+		color: 'white',
 	},
 	iconStyle: {
 		width: 20,
 		height: 20,
+		color: 'white',
 	},
 	inputSearchStyle: {
 		height: 40,
 		fontSize: 16,
+		color: 'white',
 	},
 	input: {
 		height: 50,
@@ -465,5 +476,6 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		alignItems: 'center',
 		justifyContent: 'center',
+		color: 'white',
 	},
 })

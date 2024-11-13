@@ -1,5 +1,5 @@
 export const COLORS = {
-	bg: '#EEEEEE',
+	bg: '#111827',
 	red: '#FF0000',
 	blue: '#294F82',
 	green: '#66DDAA',
@@ -7,7 +7,7 @@ export const COLORS = {
 	lightRed: '#FA8072',
 	white: '#FFFFFF',
 	black: '#000000',
-	borderGrey: '#D8D8D8',
+	borderGrey: '#ffffff',
 	iconGrey: '#C8C8C8',
 	subHeading: '#525058',
 	selectGrey: '#838383',
